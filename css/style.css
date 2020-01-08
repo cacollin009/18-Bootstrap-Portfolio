@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+/* Navigation bar */
+
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  .customNav a {
+    color: black
+  }
+
+  /* Jumbotron  */
+.jumbotron {
+    background-image: url(../images/jumbo3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: black;
+    text-align: center;
+    margin: 5%;
+    margin-top: 20%;
+  }
+  .btn {
+    margin-top: 20px;
+  }
+  
+/* Cards */
+.content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+  
+  /* Footer */
+.emailContain {
+  background-color: #EFEFEF;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  padding: 50px;
+  text-align: center;
+}
+.Links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 10%;
+  font-size: 16px;
+}
+.Links a {
+  text-decoration: none;
+}
